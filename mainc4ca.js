@@ -29,7 +29,7 @@ console.log(me);
 	});
 
 	var bernies = [];
-	var possibleBernies = ["bern1", "bern2", "bern3", "bern4", "bern5", "bern6", "bern7", "bern4"];
+	var possibleBernies = ["bern1", "bern2", "bern3", "bern4", "bern5", "bern6", "bern7", "bern8"];
 
 	var BackgroundManager = Base.extend({
 		initialize: function() {
@@ -99,9 +99,9 @@ console.log("bernie update");
 			this.stateTime += delta;
 			if (!playing) {
 				if (playedOnce)
-					this.text.content = "Please wait, reloading more Bernies";
+					this.text.content = "Please wait, reloading more Ethans";
 				else
-					this.text.content = "Do we feel the Bern?!?!";
+					this.text.content = "Are we ready for Ethan?!?!";
 				if (Math.floor(this.stateTime % 1.5) == 0) {
 					// this.text.content = "Please wait, loading Bernies";
 					this.text.characterStyle.fontSize = 15;
